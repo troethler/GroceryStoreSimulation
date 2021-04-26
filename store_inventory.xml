@@ -4,188 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="611dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton19"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="558dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton18"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="506dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton17"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="455dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="406dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton15"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton13"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton14"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="305dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="204dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="152dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="611dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="558dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="506dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="455dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="406dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="305dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="46dp"
-        android:layout_height="34dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="202dp" />
+    tools:context=".StoreInventory">
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Price"
+        android:text="Quantity"
         android:textAlignment="center"
         android:textColor="#3F51B5"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="108dp" />
 
     <TextView
@@ -203,8 +32,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="96"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="613dp" />
@@ -214,8 +43,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="92"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="560dp" />
@@ -225,8 +54,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="55"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="508dp" />
@@ -236,8 +65,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$2.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="78"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="457dp" />
@@ -247,8 +76,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$7.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="60"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="408dp" />
@@ -258,8 +87,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$10.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="46"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="358dp" />
@@ -269,8 +98,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="77"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="307dp" />
@@ -280,8 +109,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="57"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="257dp" />
@@ -291,8 +120,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="99"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="270dp"
         tools:layout_editor_absoluteY="204dp" />
@@ -390,7 +219,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Set Prices"
+        android:text="Store Inventory"
         android:textColor="#5A5757"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -429,19 +258,10 @@
         android:layout_height="32dp"
         android:background="#3F51B5"
         android:gravity="center_vertical|center_horizontal"
-        android:text="$6.00"
+        android:text="61"
         android:textAlignment="gravity"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="152dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="46dp"
-        android:layout_height="32dp"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="152dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
