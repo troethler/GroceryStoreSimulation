@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Grocery_ Store_ Prototype</string>
+    <string name="enter_the_store_s_hours">Enter the store\'s hours:</string>
+    <string name="_8_am">8 am</string>
+    <string name="plus_start">+</string>
+    <string name="minus_start">-</string>
+    <string name="_8_pm">8 pm</string>
+    <string name="plus_end">+</string>
+    <string name="next">Next</string>
+    <string name="minus_end">-</string>
+    <string name="text">Text</string>
+</resources>
