@@ -10,72 +10,80 @@
         android:id="@+id/imageButton20"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="611dp" />
 
     <ImageButton
         android:id="@+id/imageButton19"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="558dp" />
 
     <ImageButton
         android:id="@+id/imageButton18"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="506dp" />
 
     <ImageButton
         android:id="@+id/imageButton17"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="455dp" />
 
     <ImageButton
         android:id="@+id/imageButton16"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="406dp" />
 
     <ImageButton
         android:id="@+id/imageButton15"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="356dp" />
 
     <ImageButton
         android:id="@+id/imageButton13"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="255dp" />
 
     <ImageButton
         android:id="@+id/imageButton14"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="305dp" />
 
     <ImageButton
@@ -83,17 +91,18 @@
         android:layout_width="46dp"
         android:layout_height="32dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="204dp" />
 
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="46dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
         android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
         app:srcCompat="@drawable/baseline_arrow_right_black_18"
-        tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="152dp" />
 
     <ImageButton
@@ -101,8 +110,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="611dp" />
 
     <ImageButton
@@ -110,8 +119,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="558dp" />
 
     <ImageButton
@@ -119,17 +128,17 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="506dp" />
+        tools:layout_editor_absoluteY="508dp" />
 
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="455dp" />
 
     <ImageButton
@@ -137,8 +146,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="406dp" />
 
     <ImageButton
@@ -146,8 +155,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="356dp" />
 
     <ImageButton
@@ -155,8 +164,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="305dp" />
 
     <ImageButton
@@ -164,8 +173,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="255dp" />
 
     <ImageButton
@@ -173,8 +182,8 @@
         android:layout_width="46dp"
         android:layout_height="34dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="202dp" />
 
     <TextView
@@ -195,7 +204,8 @@
         android:text="Item"
         android:textColor="#3F51B5"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="94dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="108dp" />
 
     <TextView
@@ -203,8 +213,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$1.50"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="613dp" />
@@ -214,8 +224,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$3.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="560dp" />
@@ -225,8 +235,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$3.50"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="508dp" />
@@ -236,8 +246,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$2.50"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$2.50"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="457dp" />
@@ -247,8 +257,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$7.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$7.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="408dp" />
@@ -258,8 +268,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$10.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$10.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="358dp" />
@@ -269,8 +279,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$1.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="307dp" />
@@ -280,8 +290,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$1.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$1.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="269dp"
         tools:layout_editor_absoluteY="257dp" />
@@ -291,8 +301,8 @@
         android:layout_width="70dp"
         android:layout_height="32dp"
         android:background="#3F51B5"
-        android:text="$3.00"
         android:gravity="center_vertical|center_horizontal"
+        android:text="$3.00"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="270dp"
         tools:layout_editor_absoluteY="204dp" />
@@ -304,7 +314,8 @@
         android:text="Candy"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton10"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="613dp" />
 
     <TextView
@@ -314,7 +325,8 @@
         android:text="Chips"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="560dp" />
 
     <TextView
@@ -324,7 +336,8 @@
         android:text="Cheese"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="508dp" />
 
     <TextView
@@ -334,7 +347,8 @@
         android:text="Milk"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="55dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="457dp" />
 
     <TextView
@@ -344,7 +358,8 @@
         android:text="Poultry"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="408dp" />
 
     <TextView
@@ -354,7 +369,8 @@
         android:text="Beef"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="358dp" />
 
     <TextView
@@ -364,7 +380,8 @@
         android:text="Vegetables"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="307dp" />
 
     <TextView
@@ -374,7 +391,8 @@
         android:text="Fruit"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="257dp" />
 
     <TextView
@@ -384,19 +402,23 @@
         android:text="Hand Sanitizer"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="204dp" />
 
     <TextView
+        android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Set Prices"
         android:textColor="#5A5757"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.061" />
 
@@ -407,7 +429,8 @@
         android:text="Toilet Paper"
         android:textColor="#5A5757"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="152dp" />
 
     <Button
@@ -415,13 +438,16 @@
         android:layout_width="279dp"
         android:layout_height="61dp"
         android:background="@color/black"
+        android:backgroundTint="#050505"
         android:foreground="#00000000"
         android:text="Next"
         android:textColor="#FDFDFD"
         app:icon="@color/black"
         app:iconTint="#000000"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="692dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
         android:id="@+id/textView11"
@@ -440,8 +466,8 @@
         android:layout_width="46dp"
         android:layout_height="32dp"
         android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
         app:srcCompat="@drawable/baseline_arrow_left_black_18"
-        tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="152dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
