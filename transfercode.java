@@ -106,3 +106,11 @@ public class DailySummary extends AppCompatActivity {
         textView.setText(hsPrice);
     }
 }
+
+Send Code:
+public void send/*ex.tpPrice or startTime*/Price(View view){
+        Intent intent = new Intent(getApplicationContext(),DailySummary.class);
+        TextView txtView = (TextView)findViewById(R.id./*name of location ex. textview1*/);
+        intent.putExtra(/* name ex. tpPrice or startTime */, txtView.getText().toString());
+        startActivity(intent);
+    }
