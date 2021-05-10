@@ -1,139 +1,157 @@
-package com.example.grocerystoregame;
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreHours">
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/_enter_the_store_s_hours"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="212dp"
+        android:text="@string/_8"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/plus_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#4C4C4C"
+        android:onClick="countStartUp"
+        android:text="@string/plus_start"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toEndOf="@+id/start_time"
+        app:layout_constraintTop_toTopOf="parent" />
 
-public class StoreHours extends AppCompatActivity {
-    private int startCount = 8;
-    private int endCount = 8;
-    private String amStartCounter = "am";
-    private String pmEndCounter = "pm";
-    private TextView startShowCount;
-    private TextView endShowCount;
-    private TextView am;
-    private TextView pm;
-    private TextView alert;
-    private Button next;
+    <Button
+        android:id="@+id/minus_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#4C4C4C"
+        android:onClick="countStartDown"
+        android:text="@string/minus_start"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toEndOf="@+id/start_time"
+        app:layout_constraintTop_toBottomOf="@+id/plus_start" />
 
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="135dp"
+        android:text="@string/_8"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_time" />
 
+    <Button
+        android:id="@+id/plus_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#4C4C4C"
+        android:onClick="countEndUp"
+        android:text="@string/plus_end"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toEndOf="@+id/end_time"
+        app:layout_constraintTop_toBottomOf="@+id/minus_start" />
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_store_hours);
-        startShowCount = findViewById(R.id.start_time);
-        endShowCount = findViewById(R.id.end_time);
-        am = findViewById(R.id.am);
-        pm = findViewById(R.id.pm);
-        next = (Button) findViewById(R.id.next_button);
-        alert = (TextView) findViewById(R.id.alert);
+    <Button
+        android:id="@+id/minus_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#4C4C4C"
+        android:onClick="countEndDown"
+        android:text="@string/minus_end"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toEndOf="@+id/end_time"
+        app:layout_constraintTop_toBottomOf="@+id/plus_end"
+        app:layout_constraintVertical_bias="0.0" />
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(StoreHours.this);
-                builder.setCancelable(true);
-                builder.setTitle("Incompatible Time Choices");
-                builder.setMessage("End time cannot be bigger than start time.");
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#4C4C4C"
+        android:onClick="goToDailySummary"
+        android:text="@string/next"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-                if(startCount> endCount) {
-                    if(pmEndCounter == "am") {
-                        builder.setNegativeButton("Ok", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int i) {
-                                dialog.cancel();
-                            }
-                        });
-                        builder.show();
-                    }
-                }
-            }
-        });
-    }
+    <TextView
+        android:id="@+id/am"
+        android:layout_width="56dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="196dp"
+        android:text="@string/am"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/start_time"
+        app:layout_constraintTop_toTopOf="@+id/info_text" />
 
-    public void countStartUp(View view){
-        startCount++;
-        if (amStartCounter == "am") {
-            if(startCount == 13){
-                startCount = 1;
-                am.setText("pm");
-                amStartCounter = "pm";
-            }
-        }else if(amStartCounter != "am" ){
-            if(startCount == 13){
-                startCount = 1;
-                am.setText("am");
-                amStartCounter = "am";
-            }
-        }
-        startShowCount.setText(Integer.toString(startCount));
-    }
+    <TextView
+        android:id="@+id/pm"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/pm"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/end_time"
+        app:layout_constraintTop_toBottomOf="@+id/am" />
 
-    public void countStartDown(View view){
-        startCount--;
-        if (amStartCounter == "am") {
-            if(startCount == 0){
-                startCount = 12;
-                am.setText("pm");
-                amStartCounter = "pm";
-            }
-        }else if(amStartCounter != "am" ){
-            if(startCount == 0){
-                startCount = 12;
-                am.setText("am");
-                amStartCounter = "am";
-            }
-        }
-        startShowCount.setText(Integer.toString(startCount));
-    }
-
-    public void countEndUp(View view){
-        endCount++;
-        if (pmEndCounter == "am") {
-            if(endCount == 13){
-                endCount = 1;
-                pm.setText("pm");
-                pmEndCounter = "pm";
-            }
-        }else if(pmEndCounter != "am" ){
-            if(endCount == 13){
-                endCount = 1;
-                pm.setText("am");
-                pmEndCounter = "am";
-            }
-        }
-        endShowCount.setText(Integer.toString(endCount));
-    }
-
-    public void countEndDown(View view){
-        endCount--;
-        if (pmEndCounter == "am") {
-            if(endCount == 0){
-                endCount = 12;
-                pm.setText("pm");
-                pmEndCounter = "pm";
-            }
-        }else if(pmEndCounter != "am" ){
-            if(endCount == 0){
-                endCount = 12;
-                pm.setText("am");
-                pmEndCounter = "am";
-            }
-        }
-        endShowCount.setText(Integer.toString(endCount));
-    }
-
-
-    public void goToDailySummary(View view) {
-        Intent intent = new Intent(StoreHours.this, DailySummary.class);
-        startActivity(intent);
-    }
-}
+    <TextView
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/you_cannot_have_end_time_start_before_start_time"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
